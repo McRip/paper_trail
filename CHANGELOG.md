@@ -2,6 +2,8 @@
 
 ### Changed
 
+- Removed deprecated methods `paper_trail_on` and `paper_trail_off`.
+  Use `paper_trail_on!` and `paper_trail_off!` instead.
 - Using a Rails initializer to reopen PaperTrail::Version or otherwise extend
   PaperTrail is no longer recommended. An alternative is described in the
   readme. See https://github.com/airblade/paper_trail/pull/557 and
